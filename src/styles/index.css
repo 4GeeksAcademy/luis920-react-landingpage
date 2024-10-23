@@ -1,12 +1,23 @@
-
-/* 
-
-    You can write your own styles here...
+.titulo-jumbotrone{
+    font-size: 100px; ;
+}
+.card{
+    width : 305px;
+    height:300px;
+    display:inline-block;
+}
+.footertext{
+ padding-top: 20px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+footer{
+    height: 60px;
+    text-align: center;
+   
+}
+@media (max-width: 800px) {
+    .card {
+        width: 95%;
+        
+    }
+}
