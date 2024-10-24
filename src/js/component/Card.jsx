@@ -1,18 +1,12 @@
-import { string } from "prop-types";
 import React from "react";
 
-Card.Props={
- title: String,
- text: string
-}
-  
 function Card(props) {
-  const {title,text} = props;
+  const {title,text,image,button} = props;
     return (
       <div className="card m-3 ">
         <a href="">
           <img
-            src="https://picsum.photos/200/200"
+            src={image}
             className="card-img-top"
             alt="..."
           ></img>
@@ -23,8 +17,8 @@ function Card(props) {
           <p className="card-text">
            {text}
           </p>
-          <a href="#" className="btn btn-primary mr-3">
-            Go somewhere
+          <a  className="btn btn-primary mr-3 mt-4">
+            {button}
           </a>
         </div>
       </div>

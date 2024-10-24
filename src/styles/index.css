@@ -2,9 +2,10 @@
     font-size: 100px; ;
 }
 .card{
-    width : 305px;
-    height:300px;
-    display:inline-block;
+    width : 270px;
+    height: 300px;
+    display: inline-block;
+   justify-content: center;
 }
 .footertext{
  padding-top: 20px;
@@ -15,9 +16,12 @@ footer{
     text-align: center;
    
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .card {
         width: 95%;
         
+    }
+    .btn{
+        margin-bottom: 15px;
     }
 }
