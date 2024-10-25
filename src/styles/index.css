@@ -1,11 +1,17 @@
 .titulo-jumbotrone{
     font-size: 100px; ;
 }
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px; 
+}
 .card{
     width : 270px;
     height: 300px;
     display: inline-block;
-   justify-content: center;
+    
 }
 .footertext{
  padding-top: 20px;
@@ -19,9 +25,10 @@ footer{
 @media (max-width: 1000px) {
     .card {
         width: 95%;
-        
+        height: 100%;
     }
-    .btn{
-        margin-bottom: 15px;
+    .titulo-jumbotrone{
+        font-size: 50px;
     }
+    
 }

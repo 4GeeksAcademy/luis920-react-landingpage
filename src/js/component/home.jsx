@@ -37,11 +37,11 @@ const Home = () => {
 		<div>
 			<Navbar/>
 			<Jumbotrone/>
-			<div style={{margin:"50px"}} >
+			<div className="card-container"  >
 				
 				{cards.map(item => (
-               <Card key={item.id} title={item.title} text={item.text} image={item.image} />
-            ))}
+               <Card key={item.id} title={item.title} text={item.text} image={item.image} button={item.button} />
+              ))}
 
 			</div>
 			<Footer/>

@@ -2,7 +2,7 @@ import React from "react";
 
 function Jumbotrone() {
     return (
-      <div className="p-  m-5 text-center  rounded-3 bg-dark ">
+      <div className=" jumbotrone m-5 text-center  rounded-3 bg-dark  ">
         <svg className="bi mt-4 mb-3" width="100" height="80"></svg>
         <h1 className=" titulo-jumbotrone text-light ">A WARM WELCOM!</h1>
         <p className="col-lg-8 mx-auto fs-5  text-light">

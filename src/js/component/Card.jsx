@@ -3,7 +3,7 @@ import React from "react";
 function Card(props) {
   const {title,text,image,button} = props;
     return (
-      <div className="card m-3 ">
+      <div className="card m-4 pt-3 " >
         <a href="">
           <img
             src={image}
@@ -17,9 +17,7 @@ function Card(props) {
           <p className="card-text">
            {text}
           </p>
-          <a  className="btn btn-primary mr-3 mt-4">
-            {button}
-          </a>
+          <a href="#" class="btn btn-primary "> {button} </a>
         </div>
       </div>
     );
